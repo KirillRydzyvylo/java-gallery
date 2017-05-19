@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <path
+        android:name="rect5381"
+        android:fillColor="@color/colorLightGray"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M5.25,5.25 L19.25,5.25 L19.25,19.25 L5.25,19.25 L5.25,5.25 Z" />
+    <path
+        android:name="rect5381-5"
+        android:fillColor="@color/colorLightGray"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M25,5.25 L39,5.25 L39,19.25 L25,19.25 L25,5.25 Z" />
+    <path
+        android:name="rect5381-3"
+        android:fillColor="@color/colorLightGray"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M44.75,5.25 L58.75,5.25 L58.75,19.25 L44.75,19.25 L44.75,5.25 Z" />
+    <path
+        android:name="rect5381-56"
+        android:fillColor="@color/colorLightGray"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M25,44.75 L39,44.75 L39,58.75 L25,58.75 L25,44.75 Z" />
+    <path
+        android:name="rect5381-2"
+        android:fillColor="@color/colorLightGray"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M5.25,44.75 L19.25,44.75 L19.25,58.75 L5.25,58.75 L5.25,44.75 Z" />
+    <path
+        android:name="rect5381-9"
+        android:fillColor="@color/colorLightGray"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M44.75,44.75 L58.75,44.75 L58.75,58.75 L44.75,58.75 L44.75,44.75 Z" />
+    <path
+        android:name="rect5381-2-1"
+        android:fillColor="@color/colorLightGray"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M5.25,25 L19.25,25 L19.25,39 L5.25,39 L5.25,25 Z" />
+    <path
+        android:name="rect5381-56-2"
+        android:fillColor="@color/colorLightGray"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M25,25 L39,25 L39,39 L25,39 L25,25 Z" />
+    <path
+        android:name="rect5381-56-2-7"
+        android:fillColor="@color/colorLightGray"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M44.75,25 L58.75,25 L58.75,39 L44.75,39 L44.75,25 Z" />
+</vector>

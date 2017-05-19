@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fon_gradient"
+    tools:context="com.example.kirill.javagallery.ui.MainActivity">
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_container">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:name="com.example.kirill.javagallery.ui.fragments.VerticalMainFragment"/>
+        </FrameLayout>
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@color/colorNull"
+            android:cacheColorHint="@color/colorNull"
+            android:divider="@null">
+        </ListView>
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>
